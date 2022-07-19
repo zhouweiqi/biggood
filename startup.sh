@@ -12,7 +12,7 @@ else
     curl "$randomurl" -o /root/html/index.html
 fi
 
-# Run V2Ray
+# Run 
 if [[ $TUNNEL_TOKEN ]]; then
 echo 'has tunnel token, run cloudflared tunnel'
 wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O /root/cloudflared
