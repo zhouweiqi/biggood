@@ -39,7 +39,7 @@
 // }
         
         {
-            "port": 9999,
+            "port": 8080,
             "protocol": "vmess",
             "settings": {
                 "clients": [{
